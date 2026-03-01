@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import fs from 'fs';
 import path from 'path';
+import NavBar from '@/components/NavBar';
 
 export default function Home() {
   let realPosters: string[] = [];
@@ -15,32 +16,7 @@ export default function Home() {
 
   return (
     <>
-      <nav className="fixed w-full z-50 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-20">
-            <div className="flex-shrink-0 flex items-center gap-3">
-              <div className="h-10 w-10 bg-primary rounded flex items-center justify-center text-white font-display text-xl font-bold">B</div>
-              <div className="hidden md:block">
-                <span className="font-display text-2xl font-bold text-gray-900 dark:text-white tracking-wider block leading-none">Bhakthan</span>
-                <span className="text-[0.6rem] font-bold text-primary tracking-[0.2em] uppercase block">Designs</span>
-              </div>
-            </div>
-            <div className="hidden md:flex space-x-8 items-center">
-              <a className="text-sm font-medium hover:text-primary transition-colors" href="#about">WHO I AM</a>
-              <a className="text-sm font-medium hover:text-primary transition-colors" href="#services">SERVICES</a>
-              <a className="text-sm font-medium hover:text-primary transition-colors" href="#portfolio">PORTFOLIO</a>
-              <a className="px-5 py-2.5 bg-primary text-white text-sm font-bold rounded hover:bg-primary-hover transition-transform transform hover:scale-105 shadow-lg shadow-primary/30" href="#contact">
-                GET IN TOUCH
-              </a>
-            </div>
-            <div className="md:hidden flex items-center">
-              <button className="text-gray-800 dark:text-white hover:text-primary focus:outline-none">
-                <span className="material-icons-round text-3xl">menu</span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <NavBar />
 
       <header className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background-dark text-white pt-20">
         <div className="absolute inset-0 z-0">
