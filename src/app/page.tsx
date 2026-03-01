@@ -241,7 +241,7 @@ export default function Home() {
             <h2 className="font-display text-5xl md:text-7xl text-primary mb-6">get in touch</h2>
             <p className="text-gray-600 dark:text-gray-400 max-w-xl mx-auto">Ready to make your mark? Let's build something legendary together.</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-16 max-w-2xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-16 max-w-4xl mx-auto">
             <a
               className="flex items-center justify-center space-x-3 py-4 bg-white dark:bg-gray-800 rounded-xl hover:bg-primary hover:text-white transition-all duration-300 group shadow-sm border border-transparent hover:border-white/20"
               href="https://www.linkedin.com/in/sreenivasabhakthan"
@@ -260,7 +260,16 @@ export default function Home() {
               <span className="text-[#EA4335] group-hover:text-white transition-colors material-icons-round text-2xl">
                 mail
               </span>
-              <span className="font-bold text-sm">bhakthanvvasudeva@gmail.com</span>
+              <span className="font-bold text-sm text-[0.8rem]">bhakthanvvasudeva@gmail.com</span>
+            </a>
+            <a
+              className="flex items-center justify-center space-x-3 py-4 bg-white dark:bg-gray-800 rounded-xl hover:bg-primary hover:text-white transition-all duration-300 group shadow-sm border border-transparent hover:border-white/20"
+              href="tel:+919074949989"
+            >
+              <span className="text-[#25D366] group-hover:text-white transition-colors material-icons-round text-2xl">
+                call
+              </span>
+              <span className="font-bold text-sm">+91 9074949989</span>
             </a>
           </div>
           <div className="border-t border-gray-300 dark:border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500 dark:text-gray-400">
