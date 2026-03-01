@@ -1,0 +1,120 @@
+﻿node.exe : ΓÜá Warning: 
+Next.js inferred your 
+workspace root, but it may 
+not be correct.
+At C:\Program 
+Files\nodejs\npx.ps1:29 
+char:3
++   & $NODE_EXE $NPX_CLI_JS 
+$args
++   
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (ΓÜá War  
+  ning: Ne...not be correc   
+ t.:String) [], RemoteExc    
+eption
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+ We detected multiple 
+lockfiles and selected the 
+directory of 
+C:\Users\SREENIVASA 
+BHAKTHAN\package-lock.json 
+as the root directory.
+ To silence this warning, 
+set `turbopack.root` in your 
+Next.js config, or consider 
+removing one of the 
+lockfiles if it's not needed.
+   See https://nextjs.org/doc
+s/app/api-reference/config/ne
+xt-config-js/turbopack#root-d
+irectory for more 
+information.
+ Detected additional 
+lockfiles: 
+   * C:\Users\SREENIVASA 
+BHAKTHAN\Desktop\designer 
+portfolio\package-lock.json
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build 
+failed with 1 errors:
+./Desktop/designer 
+portfolio/src/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're 
+trying to use `tailwindcss` 
+directly as a PostCSS 
+plugin. The PostCSS plugin 
+has moved to a separate 
+package, so to continue 
+using Tailwind CSS with 
+PostCSS you'll need to 
+install 
+`@tailwindcss/postcss` and 
+update your PostCSS 
+configuration.
+    [at at 
+(C:\Users\SREENIVASA 
+BHAKTHAN\Desktop\designer por
+tfolio\node_modules\tailwindc
+ss\dist\lib.js:38:1643)]
+    at turbopack:///[turbopac
+k-node]/transforms/postcss.ts
+:56:14 [C:\Users\SREENIVASA 
+BHAKTHAN\Desktop\designer por
+tfolio\.next\build\chunks\[ro
+ot-of-the-server]__f8dbe884._
+.js:140:20]
+    [at <anonymous>]
+    at Module.init (turbopack
+:///[turbopack-node]/transfor
+ms/postcss.ts:43:33) 
+[C:\Users\SREENIVASA 
+BHAKTHAN\Desktop\designer por
+tfolio\.next\build\chunks\[ro
+ot-of-the-server]__f8dbe884._
+.js:130:35]
+    at run (turbopack:///[tur
+bopack-node]/ipc/evaluate.ts:
+77:20) [C:\Users\SREENIVASA 
+BHAKTHAN\Desktop\designer por
+tfolio\.next\build\chunks\[ro
+ot-of-the-server]__1a1723a8._
+.js:429:26]
+    [at process.processTicksA
+ndRejections (node:internal/p
+rocess/task_queues:105:5)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/designer portfo
+lio/src/app/globals.css 
+[Client Component Browser]
+    ./Desktop/designer 
+portfolio/src/app/layout.tsx 
+[Server Component]
+
+
+    at Module.init (turbopack
+:///[turbopack-node]/transfor
+ms/postcss.ts:43:33) 
+[C:\Users\SREENIVASA 
+BHAKTHAN\Desktop\designer por
+tfolio\.next\build\chunks\[ro
+ot-of-the-server]__f8dbe884._
+.js:130:35])
+    at run (turbopack:///[tur
+bopack-node]/ipc/evaluate.ts:
+77:20) [C:\Users\SREENIVASA 
+BHAKTHAN\Desktop\designer por
+tfolio\.next\build\chunks\[ro
+ot-of-the-server]__1a1723a8._
+.js:429:26])
