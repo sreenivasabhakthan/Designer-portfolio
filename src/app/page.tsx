@@ -65,7 +65,7 @@ export default function Home() {
           <div className="grid md:grid-cols-12 gap-12 items-center">
             <div className="md:col-span-5 relative">
               <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl rotate-3 border-4 border-white dark:border-gray-800">
-                <img alt="Abstract artistic statue or representation" className="w-full h-full object-cover" src="sreenivas.png" />
+                <img alt="Abstract artistic statue or representation" className="w-full h-full object-cover" src="/Sreenivas.png" />
               </div>
               <div className="absolute -bottom-10 -left-10 w-32 h-32 bg-primary rounded-full flex items-center justify-center text-white shadow-xl z-20 hidden md:flex">
                 <span className="material-icons-round text-5xl">brush</span>
