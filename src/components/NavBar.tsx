@@ -23,7 +23,7 @@ export default function NavBar() {
                     </div>
 
                     <div className="hidden md:flex space-x-8 items-center">
-                        <a className="text-sm font-medium hover:text-primary transition-colors" href="#about">WHO I AM</a>
+                        <a className="text-sm font-medium hover:text-primary transition-colors" href="#about">WHO AM I</a>
                         <a className="text-sm font-medium hover:text-primary transition-colors" href="#services">SERVICES</a>
                         <a className="text-sm font-medium hover:text-primary transition-colors" href="#portfolio">PORTFOLIO</a>
                         <a className="px-5 py-2.5 bg-primary text-white text-sm font-bold rounded hover:bg-primary-hover transition-transform transform hover:scale-105 shadow-lg shadow-primary/30" href="#contact">
