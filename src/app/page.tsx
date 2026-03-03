@@ -2,6 +2,7 @@ import Link from 'next/link';
 import fs from 'fs';
 import path from 'path';
 import NavBar from '@/components/NavBar';
+import BrushBurst from '@/components/BrushBurst';
 
 export default function Home() {
   let realPosters: string[] = [];
@@ -67,9 +68,7 @@ export default function Home() {
               <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl rotate-3 border-4 border-white dark:border-gray-800">
                 <img alt="Abstract artistic statue or representation" className="w-full h-full object-cover" src="/Sreenivas.png" />
               </div>
-              <div className="absolute -bottom-10 -left-10 w-32 h-32 bg-primary rounded-full flex items-center justify-center text-white shadow-xl z-20 hidden md:flex">
-                <span className="material-icons-round text-5xl">brush</span>
-              </div>
+              <BrushBurst />
             </div>
             <div className="md:col-span-7 space-y-6 text-lg text-gray-600 dark:text-gray-300 leading-relaxed font-light">
               <p>
